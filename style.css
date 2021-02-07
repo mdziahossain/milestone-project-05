@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #e5e5e5;
+}
+
+#container {
+  width: 1140px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#meals-container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.search {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchBtn {
+  width: 40px;
+  height: 50px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#meals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.meal-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f7f5;
+  padding: 0px;
+  text-align: center;
+  width: 270px;
+}
+
+.meal-name {
+  font-size: 1rem;
+  color: #333;
+}
+
+.meal-img {
+  width: 100%;
+}
