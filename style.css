@@ -69,8 +69,15 @@ html {
 .meal-name {
   font-size: 1rem;
   color: #333;
+  padding: 10px;
 }
 
 .meal-img {
   width: 100%;
+}
+
+.mealBtn {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
 }
